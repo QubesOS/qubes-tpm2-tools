@@ -1,0 +1,8 @@
+host:
+  rpm:
+    build:
+    - tpm2-tools.spec
+source:
+  files:
+  - url: https://github.com/tpm2-software/tpm2-tools/releases/download/@VERSION@/tpm2-tools-@VERSION@.tar.gz
+    sha512: tpm2-tools-@VERSION@.tar.gz.sha512
